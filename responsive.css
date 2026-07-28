@@ -7,12 +7,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 @media (max-width: 600px) {
-  /* .container {
-    width: 50rem;
-    margin: 0 auto;
-    border: 0.7rem solid #f7098c;
-    padding: 1rem;
-  } */
   .container {
     width: 99vw;
     margin: 0 auto;
@@ -21,7 +15,7 @@ body {
   }
   .container textarea {
     display: block;
-    width: 94%;
+    width: 93vw;
     height: 10rem;
     font-size: 1rem;
   }

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 601px) {
+  .container {
+    width: 50rem;
+    margin: 0 auto;
+    border: 0.7rem solid #f7098c;
+    padding: 1rem;
+  }
+  .container textarea {
+    display: block;
+    width: 46rem;
+    height: 10rem;
+    font-size: 1rem;
+  }
+  .container > div {
+    text-align: center;
+  }
+  .container * {
+    margin: 0.5rem;
+  }
+  .container button {
+    font-size: 2rem;
+    padding: 0.3rem;
+  }
+}
